@@ -1,23 +1,22 @@
 package classe;
 
-public class Calculadora { //Classe para demonstrar todos os tipos de metodos
+public class Calculadora {
 	double resultado;
-	
-	double somar(double a, double b) { // Recebe parametro e tem um retorno
+
+	double somar(double a, double b) {
 		resultado = a + b;
 		return resultado;
 	}
-	
-	void acrescentar(double a) { // Recebe parametro e não tem retorno
+
+	void acrescentar(double a) {
 		resultado += a;
 	}
-	
-	double obterResultado() { // Não recebe parametro mas tem retorno
+
+	double obterResultado() {
 		return resultado;
 	}
-	
-	void limpar() { // Não recebe parametro e não tem retorno 
+
+	void limpar() {
 		resultado = 0;
 	}
-	
 }

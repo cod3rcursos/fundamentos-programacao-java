@@ -11,13 +11,13 @@ public class WhileIndeterminado {
 		int numeroDeNotas = 0;
 		while (nota != -1) {
 			nota = scanner.nextDouble();
-			
+
 			if (nota <= 10 && nota >= 0) {
 				somaDasNotas += nota;
 				numeroDeNotas++;
-			}			
+			}
 		}
 		scanner.close();
-		System.out.printf("A média é %.2f", somaDasNotas / numeroDeNotas);
+		System.out.printf("A mÃ©dia Ã© %.2f", somaDasNotas / numeroDeNotas);
 	}
 }

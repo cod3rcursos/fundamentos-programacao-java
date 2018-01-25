@@ -3,9 +3,8 @@ package controle;
 public class SwitchSemBreak {
 
 	public static void main(String[] args) {
-		//No Switch sem case, se uma das cases retornarem true, ele executa todas as cases que estão abaixo dela.
 		String faixa = "branca";
-		
+
 		switch (faixa.toLowerCase()) {
 		case "preta":
 			System.out.println("Sei fazer o 'Bassai-Dai/Jion/Kanku-Dai'");
@@ -22,9 +21,8 @@ public class SwitchSemBreak {
 		case "amarela":
 			System.out.println("Sei fazer o 'Heian Shodan'");
 		default:
-			System.out.println("Não sei nada");
+			System.out.println("Nï¿½o sei nada");
 		}
-		
+
 	}
 }
-

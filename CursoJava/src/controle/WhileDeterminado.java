@@ -8,7 +8,7 @@ public class WhileDeterminado {
 		Scanner scanner = new Scanner(System.in);
 		double somaDasNotas = 0;
 		double nota = 0;
-		
+
 		int indice = 0;
 		while (indice < 3) {
 			nota = scanner.nextDouble();
@@ -16,6 +16,6 @@ public class WhileDeterminado {
 			indice++;
 		}
 		scanner.close();
-		System.out.printf("A media é %.2f", somaDasNotas / 3);
+		System.out.printf("A media Ã© %.2f", somaDasNotas / 3);
 	}
 }
