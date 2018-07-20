@@ -4,9 +4,13 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Exercicio6 {
-	/**6. Jogo da adivinhação: Tentar adivinhar um número entre 0 - 100. Armazene um número aleatório em uma variável. 
-	 * O Jogador tem 10 tentativas para adivinhar o número gerado. Ao final de cada tentativa, imprima a quantidade de 
-	 * tentativas restantes, e imprima se o número inserido é maior ou menor do que o número armazenado.*/
+	/**
+	 * 6. Jogo da adivinhação: Tentar adivinhar um número entre 0 - 100. Armazene
+	 * um número aleatório em uma variável. O Jogador tem 10 tentativas para
+	 * adivinhar o número gerado. Ao final de cada tentativa, imprima a quantidade
+	 * de tentativas restantes, e imprima se o número inserido é maior ou menor do
+	 * que o número armazenado.
+	 */
 
 	public static void main(String[] args) {
 

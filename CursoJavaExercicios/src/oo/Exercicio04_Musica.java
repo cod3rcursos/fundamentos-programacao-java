@@ -6,7 +6,7 @@ public class Exercicio04_Musica extends Exercicio04_Midia {
 	String genero;
 	boolean tocando = false;
 
-	void Play() {
+	void play() {
 		if (this.tocando == false) {
 			this.tocando = true;
 			System.out.println("Tocando arquivo!");
@@ -15,7 +15,7 @@ public class Exercicio04_Musica extends Exercicio04_Midia {
 		}
 	}
 
-	void Pause() {
+	void pause() {
 		if (this.tocando == true) {
 			this.tocando = false;
 			System.out.println("Parando de tocar arquivo!");

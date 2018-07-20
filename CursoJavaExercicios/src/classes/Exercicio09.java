@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class Exercicio09 {
 
-	public static void Inversao(int a, int b) {
+	public static void inversao(int a, int b) {
 		int reserva = a;
 		a = b;
 		b = reserva;
@@ -31,8 +31,8 @@ public class Exercicio09 {
 
 		System.out.printf("\nSeu numB é: %d", numB);
 
-		Inversao(numA, numB);
-		
+		inversao(numA, numB);
+
 		scanner.close();
 	}
 

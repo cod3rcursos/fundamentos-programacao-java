@@ -5,7 +5,7 @@ public class Exercicio04_Video extends Exercicio04_Midia {
 	boolean telaCheia = false;
 	boolean tocando = false;
 
-	void Play() {
+	void play() {
 		if (this.tocando == false) {
 			this.tocando = true;
 			System.out.println("Tocando arquivo!");
@@ -14,7 +14,7 @@ public class Exercicio04_Video extends Exercicio04_Midia {
 		}
 	}
 
-	void Pause() {
+	void pause() {
 		if (this.tocando == true) {
 			this.tocando = false;
 			System.out.println("Parando de tocar arquivo!");
@@ -23,7 +23,7 @@ public class Exercicio04_Video extends Exercicio04_Midia {
 		}
 	}
 
-	void TelaCheia() {
+	void telaCheia() {
 		if (this.telaCheia == false) {
 			this.telaCheia = true;
 			System.out.println("Em tela cheia!");

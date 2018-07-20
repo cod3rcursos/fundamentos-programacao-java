@@ -3,8 +3,9 @@ package controle;
 import java.util.Scanner;
 
 public class Exercicio4 {
-	//4. Criar um programa que receba um número e diga se ele é um número primo.
-
+	/**
+	 * 4. Criar um programa que receba um número e diga se ele é um número primo.
+	 */
 	public static void main(String[] args) {
 
 		int contadorDeDivisores = 0;
@@ -24,7 +25,7 @@ public class Exercicio4 {
 		} else {
 			System.out.println("\nO numero " + numero + " não é primo.");
 		}
-		
+
 		scanner.close();
 
 	}

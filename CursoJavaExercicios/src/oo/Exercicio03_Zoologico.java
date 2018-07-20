@@ -7,8 +7,8 @@ public class Exercicio03_Zoologico {
 		Exercicio03_Macaco macaco = new Exercicio03_Macaco("Macaco", 100, "Uh-uh-uh");
 		Exercicio03_Lobo lobo = new Exercicio03_Lobo("Leao", 80, "Auuuuuu");
 		
-		leao.Som();
-		macaco.Som();
-		lobo.Som();
+		leao.som();
+		macaco.som();
+		lobo.som();
 	}
 }

@@ -21,7 +21,7 @@ public class Exercicio08 {
 				impar = impar + i;
 			}
 		}
-		
+
 		System.out.println(par);
 		System.out.println(impar);
 	}

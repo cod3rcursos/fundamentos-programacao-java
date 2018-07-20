@@ -1,7 +1,10 @@
 package colecoes;
 
 public class Exercicio04 {
-	/** 4. Crie um programa que realize a intersecção entre 2 vetores e armazene esses valores em um novo vetor; */
+	/**
+	 * 4. Crie um programa que realize a intersecção entre 2 vetores e armazene
+	 * esses valores em um novo vetor;
+	 */
 
 	public static void main(String[] args) {
 		int vetorA[] = { 1, 2, 3, 4, 5 };

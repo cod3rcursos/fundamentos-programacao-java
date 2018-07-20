@@ -1,9 +1,10 @@
 package colecoes;
 
 public class Exercicio05a {
-	/** Ordene uma lista de inteiros com os seguintes algoritmos de ordenação: 
-	 * Bubble Sort;
-	 * */
+	/**
+	 * Ordene uma lista de inteiros com os seguintes algoritmos de ordenação: Bubble
+	 * Sort;
+	 */
 
 	public static void main(String args[]) {
 		int[] vet = { 8, 9, 3, 5, 1 };

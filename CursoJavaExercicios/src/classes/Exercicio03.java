@@ -3,8 +3,8 @@ package classes;
 import java.util.Scanner;
 
 /**
- * 3. Crie uma função que calcule a sequência de fibonacci. Desafio: Tente fazer
- * de forma recursiva!
+ * 3. Crie uma função que calcule a sequência de fibonacci. Desafio: Tente
+ * fazer de forma recursiva!
  */
 public class Exercicio03 {
 
@@ -22,13 +22,13 @@ public class Exercicio03 {
 
 	public static void main(String args[]) {
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.println("Digite um numero para o contador: ");
 		int contador = scanner.nextInt();
-		
+
 		System.out.print(n1 + " " + n2);
 		imprimirFibonacci(contador - 2);
-		
+
 		scanner.close();
 	}
 }

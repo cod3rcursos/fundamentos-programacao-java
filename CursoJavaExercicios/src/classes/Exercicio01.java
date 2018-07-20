@@ -3,12 +3,12 @@ package classes;
 import java.util.Scanner;
 
 /**
- * 1. Crie uma função que recebe dois números e imprima a soma desses dois
- * números.
+ * 1. Crie uma função que recebe dois números e imprima a soma desses dois
+ * números.
  */
 public class Exercicio01 {
 
-	static void Somatorio(int a, int b) {
+	static void somatorio(int a, int b) {
 		System.out.println(a + b);
 	}
 
@@ -21,7 +21,7 @@ public class Exercicio01 {
 		System.out.println("Digite o segundo numero: ");
 		int n2 = scanner.nextInt();
 
-		Somatorio(n1, n2);
+		somatorio(n1, n2);
 
 		scanner.close();
 	}

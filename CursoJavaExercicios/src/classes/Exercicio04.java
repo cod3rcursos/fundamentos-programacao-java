@@ -3,8 +3,8 @@ package classes;
 import java.util.Scanner;
 
 /**
- * 4. Crie uma função que recebe um número como argumento e retorna os números
- * "Primos" até ele.
+ * 4. Crie uma função que recebe um número como argumento e retorna os
+ * números "Primos" até ele.
  */
 public class Exercicio04 {
 
@@ -18,15 +18,15 @@ public class Exercicio04 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
+
 		System.out.println("Digite um numero: ");
 		int numero = scanner.nextInt();
-		
+
 		for (int i = 2; i <= numero; i++) {
 			if (ehPrimo(i))
 				System.out.println(i + " é primo.");
 		}
-		
+
 		scanner.close();
 	}
 }

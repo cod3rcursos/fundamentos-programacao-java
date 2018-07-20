@@ -1,9 +1,10 @@
 package colecoes;
 
 public class Exercicio05b {
-	/** Ordene uma lista de inteiros com os seguintes algoritmos de ordenação: 
+	/**
+	 * Ordene uma lista de inteiros com os seguintes algoritmos de ordenação:
 	 * Selection Sort;
-	 * */
+	 */
 
 	void sort(int arr[]) {
 		int n = arr.length;
@@ -33,7 +34,7 @@ public class Exercicio05b {
 	}
 
 	public static void main(String args[]) {
-		
+
 		Exercicio05b ob = new Exercicio05b();
 		int arr[] = { 64, 25, 12, 22, 11 };
 		ob.sort(arr);

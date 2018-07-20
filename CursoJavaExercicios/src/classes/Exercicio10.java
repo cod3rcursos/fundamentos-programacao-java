@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class Exercicio10 {
 
-	public static void Compara(int a, int b) {
+	public static void compara(int a, int b) {
 		if (a == b) {
 			System.out.printf("O numero " + a + " é igual ao numero " + b);
 		} else if (a > b) {
@@ -30,7 +30,7 @@ public class Exercicio10 {
 		System.out.println("Digite o segundo numero: ");
 		int num2 = scanner.nextInt();
 
-		Compara(num1, num2);
+		compara(num1, num2);
 
 		scanner.close();
 	}

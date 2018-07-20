@@ -3,9 +3,10 @@ package colecoes;
 import java.io.IOException;
 
 public class Exercicio05c {
-	/**Ordene uma lista de inteiros com os seguintes algoritmos de ordenação: 
-	 * Quick Sort;
-	 * */
+	/**
+	 * Ordene uma lista de inteiros com os seguintes algoritmos de ordenação: Quick
+	 * Sort;
+	 */
 
 	private static void quickSort(int[] vetor, int inicio, int fim) {
 		if (inicio < fim) {
