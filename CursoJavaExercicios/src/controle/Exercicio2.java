@@ -12,9 +12,13 @@ public class Exercicio2 {
 		System.out.println("Digite o ano: ");
 		int ano = scanner.nextInt();
 
-		int bissexto = ano % 4;
+		int bissextoTest1 = ano % 4;
 
-		if (bissexto == 0) {
+		int bissextoTest2 = ano % 100;
+
+		int bissextoTest3 = ano % 400;
+
+		if (bissextoTest3 == 0 || (bissextoTest1 == 0 && bissextoTest2 != 0)) {
 			System.out.println(ano + " é um ano bissexto");
 		} else {
 			System.out.println(ano + " não é um ano bissexto");
