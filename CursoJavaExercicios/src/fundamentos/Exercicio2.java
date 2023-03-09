@@ -12,7 +12,7 @@ public class Exercicio2 {
 		System.out.println("Digite a temperatura em Fahrenheit: ");
 		double fahrenheit = scanner.nextDouble();
 		
-		double conversao = fahrenheit * 1.8 + 32 ;
+		double conversao = (fahrenheit - 32) / 1.8;
 	
 		System.out.print("Valor em Celsius: " + conversao);
 		
