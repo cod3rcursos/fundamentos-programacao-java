@@ -18,7 +18,12 @@ public class Exercicio9 {
 			System.out.println("\nDigite um numero: ");
 			int valor = scanner.nextInt();
 
-			if (valor > maiorValor) {
+			//Recebe obrigatoriamente o primeiro valor digitado pelo usuário
+			if(contador == 0){  
+				maiorValor = valor;
+			}
+				
+			else if (valor > maiorValor) {
 				maiorValor = valor;
 			}
 
