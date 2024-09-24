@@ -4,22 +4,29 @@ import java.util.Scanner;
 
 public class Exercicio8 {
 	/**
-	 * 8. Criar um programa que receba uma palavra e imprime no console letra por
-	 * letra.
+	 * 8. Crie um programa que recebe 10 valores e ao final imprima o maior número.
 	 */
 
 	public static void main(String[] args) {
+
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Digite a palavra: ");
-		String palavra = scanner.nextLine();
+		int maiorValor = 0;
+		int contador = 0;
 
-		char letras[] = palavra.toCharArray();
+		do {
+			System.out.println("\nDigite um numero: ");
+			int valor = scanner.nextInt();
 
-		for (int i = 0; i < letras.length; i++) {
-			System.out.println(letras[i]);
-		}
+			if (valor > maiorValor) {
+				maiorValor = valor;
+			}
 
+			contador++;
+		} while (contador != 10);
+
+		System.out.printf("O maior valor foi: " + maiorValor);
 		scanner.close();
 	}
+
 }
